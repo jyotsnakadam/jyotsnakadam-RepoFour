@@ -11,11 +11,17 @@ import UIKit
 class Shape: NSObject {
 
     //This function is written to calculate area of a shape
-    func calculateShapeArea()
+    func calculateShapeArea() -> Int
     {
         let a = 10
         let b = 20
         let c = a * b
-        print(c)
+        return c
+    }
+    
+    //This function is written to get shape area
+    func getShapeArea()
+    {
+        print(calculateShapeArea())
     }
 }
