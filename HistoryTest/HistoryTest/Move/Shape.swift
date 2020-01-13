@@ -23,5 +23,6 @@ class Shape: NSObject {
     func getShapeArea()
     {
         print(calculateShapeArea())
+        let are = calculateShapeArea()
     }
 }

@@ -101,10 +101,10 @@
 		BABD65F023CC466A0051EE6E /* HistoryTest */ = {
 			isa = PBXGroup;
 			children = (
+				BABD662323CC475B0051EE6E /* Move */,
 				BABD65F123CC466A0051EE6E /* AppDelegate.swift */,
 				BABD65F323CC466A0051EE6E /* SceneDelegate.swift */,
 				BABD65F523CC466A0051EE6E /* ContentView.swift */,
-				BABD662123CC46910051EE6E /* Shape.swift */,
 				BABD65F723CC466B0051EE6E /* Assets.xcassets */,
 				BABD65FC23CC466B0051EE6E /* LaunchScreen.storyboard */,
 				BABD65FF23CC466B0051EE6E /* Info.plist */,
@@ -137,6 +137,14 @@
 				BABD661523CC466C0051EE6E /* Info.plist */,
 			);
 			path = HistoryTestUITests;
+			sourceTree = "<group>";
+		};
+		BABD662323CC475B0051EE6E /* Move */ = {
+			isa = PBXGroup;
+			children = (
+				BABD662123CC46910051EE6E /* Shape.swift */,
+			);
+			path = Move;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
